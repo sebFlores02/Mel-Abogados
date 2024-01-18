@@ -3,14 +3,14 @@ import Image from 'next/image'
 export default function Home() {
   var email = 'johndoe@fakeemail.com'
   return (
-    <main className="">
+    <main className=''>
       <header className='bg-[#636363] pt-0 h-[58rem]'>
         <section className='flex justify-between items-center mx-20 pt-8'>
           <Image
-          src="/LOGO.png"
+          src='/LOGO.png'
           width={200}
           height={200}
-          alt="Logo Mel Abogados"
+          alt='Logo Mel Abogados'
           />
           <ul className='flex gap-10 font-semibold text-white'>
             <li><a href='#1'>Nuestros Socios</a></li>
@@ -23,14 +23,14 @@ export default function Home() {
         <section className='flex justify-center mt-[110px] items-center'>
           <section className='basis-3/6'>
             <h1 className='font-bold text-white text-[40px] w-[90%]'><span className='text-[#7D0101]'>Somos líderes</span> Mejorando tiempos y procesos de cobranza judicial en Mexico.</h1>
-            <h3 className='text-[#C1C1C1] text-[24px] pt-8 pb-10 w-[70%]'>"No estamos centrados en alcanzar o lograr una meta, sino en superarla"</h3>
+            <h3 className='text-[#C1C1C1] text-[24px] pt-8 pb-10 w-[70%]'>'No estamos centrados en alcanzar o lograr una meta, sino en superarla'</h3>
             <button className='border border-white text-white rounded-[40px] px-16 py-4'><a href='#5'>CONTÁCTANOS</a></button>
           </section>
           <Image
-          src="/Lawllustration.svg"
+          src='/Lawllustration.svg'
           width={567}
           height={567}
-          alt="Logo Mel Abogados"
+          alt='Logo Mel Abogados'
           className=''
           />
         </section>
@@ -57,8 +57,8 @@ export default function Home() {
         <p className='text-center text-sm pt-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi convallis.</p>
 
 
-      <div className="grid grid-cols-6 grid-rows-5 gap-4 pt-10 px-60">
-          <div className="col-span-2 row-span-2 bg-[#919191] rounded-[20px]">
+      <div className='grid grid-cols-6 grid-rows-5 gap-4 pt-10 px-60'>
+          <div className='col-span-2 row-span-2 bg-[#919191] rounded-[20px]'>
             <h2 className='text-center text-[20px] font-semibold pt-6 pb-4'>SEGURO Y FINANZAS</h2>
               <ul className='ml-16 leading-9 list-disc'>
                 <li>Constitución</li>
@@ -66,16 +66,16 @@ export default function Home() {
                 <li>Especial de finanzas</li>
               </ul>
           </div>
-          <div className="col-span-2 row-span-2 col-start-1 row-start-3 bg-[#919191] rounded-[20px]">
+          <div className='col-span-2 row-span-2 col-start-1 row-start-3 bg-[#919191] rounded-[20px]'>
             <h2 className='text-center text-[20px] font-semibold py-8'>CARTERA <br /> HIPOTECARIA</h2>
               <ul className='ml-16 leading-9 list-disc'>
                 <li>Media Residencial</li>
               </ul>
           </div>
-          <div className="col-span-2 col-start-1 row-start-5 bg-[#919191] rounded-[20px]">
+          <div className='col-span-2 col-start-1 row-start-5 bg-[#919191] rounded-[20px]'>
             <h2 className='text-center text-[20px] font-semibold py-8'>COBRANZA JUDICIAL</h2>
           </div>
-          <div className="col-span-2 row-span-3 col-start-3 row-start-1 bg-[#919191] rounded-[20px]">
+          <div className='col-span-2 row-span-3 col-start-3 row-start-1 bg-[#919191] rounded-[20px]'>
             <h2 className='text-center text-[20px] font-semibold py-8'>FACTORAJE <br /> FINANCIERO</h2>
               <ul className='ml-16 leading-9 list-disc'>
                 <li>Con recurso</li>
@@ -84,7 +84,7 @@ export default function Home() {
                 <li>Con mandato de cobranza</li>
               </ul>
           </div>
-          <div className="col-span-2 row-span-2 col-start-3 row-start-4 bg-[#919191] rounded-[20px]">
+          <div className='col-span-2 row-span-2 col-start-3 row-start-4 bg-[#919191] rounded-[20px]'>
             <h2 className='text-center text-[20px] font-semibold pt-6 pb-4'>ARRENDAMIENTO FINANCIERO</h2>
               <ul className='ml-16 leading-9 list-disc'>
                 <li>Plantas Industriales</li>
@@ -92,7 +92,7 @@ export default function Home() {
                 <li>Inmuebles Puro</li>
               </ul>
           </div>
-          <div className="col-span-2 row-span-3 col-start-5 row-start-1 bg-[#919191] rounded-[20px]">
+          <div className='col-span-2 row-span-3 col-start-5 row-start-1 bg-[#919191] rounded-[20px]'>
             <h2 className='text-center text-[20px] font-semibold py-8'>CREDITOS EMPRESARIALES</h2>
               <ul className='ml-16 leading-9 list-disc'>
                 <li>Moneda nacional</li>
@@ -102,7 +102,7 @@ export default function Home() {
                 <li>Negocios</li>
               </ul>
           </div>
-          <div className="col-span-2 row-span-2 col-start-5 row-start-4 bg-[#919191] rounded-[20px]">
+          <div className='col-span-2 row-span-2 col-start-5 row-start-4 bg-[#919191] rounded-[20px]'>
             <h2 className='text-center text-[20px] font-semibold py-8'>CREDITOS <br /> PYME</h2>
               <ul className='ml-16 leading-9 list-disc'>
                 <li>Fondeo NAFIN</li>
@@ -118,31 +118,31 @@ export default function Home() {
         <p className='text-center text-sm pt-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi convallis.</p>
         <section className='flex justify-center py-24 gap-20'>
           <Image
-            src="/LOGO.png"
+            src='/LOGO.png'
             width={330}
             height={330}
-            alt="Logo Mel Abogados"
+            alt='Logo Mel Abogados'
             className=''
             />
           <Image
-            src="/LOGO.png"
+            src='/LOGO.png'
             width={330}
             height={330}
-            alt="Logo Mel Abogados"
+            alt='Logo Mel Abogados'
             className=''
             />
           <Image
-            src="/LOGO.png"
+            src='/LOGO.png'
             width={330}
             height={330}
-            alt="Logo Mel Abogados"
+            alt='Logo Mel Abogados'
             className=''
             />
           <Image
-            src="/LOGO.png"
+            src='/LOGO.png'
             width={330}
             height={330}
-            alt="Logo Mel Abogados"
+            alt='Logo Mel Abogados'
             className=''
             />
         </section>
@@ -165,10 +165,10 @@ export default function Home() {
               <section className='flex justify-between items-center pb-8'>
                 <h3 className='text-[28px] font-medium'>Misión</h3>
                 <Image
-                  src="/Mission.png"
+                  src='/Mission.png'
                   width={80}
                   height={80}
-                  alt="Logo Mel Abogados"
+                  alt='Logo Mel Abogados'
                   className=''
                 />
               </section>
@@ -178,10 +178,10 @@ export default function Home() {
               <section className='flex justify-between items-center pb-8'>
                 <h3 className='text-[28px] font-medium'>Misión</h3>
                 <Image
-                  src="/Mission.png"
+                  src='/Mission.png'
                   width={80}
                   height={80}
-                  alt="Logo Mel Abogados"
+                  alt='Logo Mel Abogados'
                   className=''
                 />
               </section>
@@ -191,10 +191,10 @@ export default function Home() {
               <section className='flex justify-between items-center pb-8'>
                 <h3 className='text-[28px] font-medium'>Misión</h3>
                 <Image
-                  src="/Mission.png"
+                  src='/Mission.png'
                   width={80}
                   height={80}
-                  alt="Logo Mel Abogados"
+                  alt='Logo Mel Abogados'
                   className=''
                 />
               </section>
@@ -226,19 +226,19 @@ export default function Home() {
               <section className='mt-5 flex gap-3'>
                 <div className='bg-[#7D0101] rounded-[10px] p-3'>
                   <Image
-                    src="/phone-call.png"
+                    src='/phone-call.png'
                     width={20}
                     height={20}
-                    alt="Logo Mel Abogados"
+                    alt='Logo Mel Abogados'
                   />
                 </div>
                 <a href={`mailto:${email}`}>
                   <div className='bg-[#7D0101] rounded-[10px] p-3'>
                     <Image
-                      src="/email.png"
+                      src='/email.png'
                       width={20}
                       height={20}
-                      alt="Logo Mel Abogados"
+                      alt='Logo Mel Abogados'
                     />
                   </div>
                 </a>
@@ -260,19 +260,19 @@ export default function Home() {
               <section className='mt-5 flex gap-3'>
                 <div className='bg-[#7D0101] rounded-[10px] p-3'>
                   <Image
-                    src="/phone-call.png"
+                    src='/phone-call.png'
                     width={20}
                     height={20}
-                    alt="Logo Mel Abogados"
+                    alt='Logo Mel Abogados'
                   />
                 </div>
                 <a href={`mailto:${email}`}>
                   <div className='bg-[#7D0101] rounded-[10px] p-3'>
                     <Image
-                      src="/email.png"
+                      src='/email.png'
                       width={20}
                       height={20}
-                      alt="Logo Mel Abogados"
+                      alt='Logo Mel Abogados'
                     />
                   </div>
                 </a>
@@ -294,19 +294,19 @@ export default function Home() {
               <h3 className='text-[24px] font-semibold mb-6'>Información De Contacto</h3>
               <div className='flex gap-5 mb-5'>
                 <Image
-                  src="/phoneWine.png"
+                  src='/phoneWine.png'
                   width={25}
                   height={25}
-                  alt="Logo Mel Abogados"
+                  alt='Logo Mel Abogados'
                 />
                 <p>55-555-5366750</p>
               </div>
               <div className='flex gap-5'>
                 <Image
-                  src="/emailWine.png"
+                  src='/emailWine.png'
                   width={25}
                   height={25}
-                  alt="Logo Mel Abogados"
+                  alt='Logo Mel Abogados'
                 />
                 <p>contacto@melabogadosmel.com.mx</p>
               </div>
@@ -327,7 +327,7 @@ export default function Home() {
               <section className='flex justify-between gap-10 mt-10'>
                 <section className='basis-1/2'>
                   <label className='font-semibold'>Correo</label>
-                  <input type="email" placeholder='Ingresa tu nombre...' className='outline-none border-b border-black pb-2 w-full mt-3' />
+                  <input type='email' placeholder='Ingresa tu nombre...' className='outline-none border-b border-black pb-2 w-full mt-3' />
                 </section>
                 <section className='basis-1/2 mb-6'>
                   <label className='font-semibold'>Teléfono</label>
@@ -340,10 +340,10 @@ export default function Home() {
 
               <section className='bg-[#D9D9D9] px-8 py-3 rounded-[10px] border border-black flex gap-4 justify-end w-fit float-right'>
                 <Image
-                    src="/send.png"
+                    src='/send.png'
                     width={25}
                     height={25}
-                    alt="Logo Mel Abogados"
+                    alt='Logo Mel Abogados'
                   />
                 <input className='pr-4' type='submit' value='Enviar Mensaje' />
               </section>
@@ -358,10 +358,10 @@ export default function Home() {
       <section className='py-12 flex justify-center items-center gap-40'>
         <div className='basis-1/3 flex justify-center'>
           <Image
-            src="/LOGO.png"
+            src='/LOGO.png'
             width={200}
             height={200}
-            alt="Logo Mel Abogados"
+            alt='Logo Mel Abogados'
           />
         </div>
         <p className='basis-1/3 text-center'>© 2024 All rights res red. <span className='text-[#7D0101] font-semibold'>MEL Abogados</span></p>
@@ -369,19 +369,19 @@ export default function Home() {
           <div className='bg-[#7D0101] rounded-full p-3'>
             <a href={`mailto:${email}`}>
               <Image
-                src="/email.png"
+                src='/email.png'
                 width={25}
                 height={25}
-                alt="Logo Mel Abogados"
+                alt='Logo Mel Abogados'
               />
             </a>
           </div>
           <div className='bg-[#7D0101] rounded-full p-3'>
             <Image
-              src="/phone-call.png"
+              src='/phone-call.png'
               width={25}
               height={25}
-              alt="Logo Mel Abogados"
+              alt='Logo Mel Abogados'
             />
           </div>
         </section>
