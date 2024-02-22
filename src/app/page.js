@@ -7,12 +7,12 @@ export default function Home() {
     <main>
       {/* Hero */}
 
-      <header className="bg-[#8D8D8D] pt-0 min-h-[100vh] flex flex-col justify-between pb-10 ">
+      <header className="bg-third pt-0 min-h-[100vh] flex flex-col justify-between pb-10 ">
         <Header />
         <section className="flex flex-col-reverse lg:flex-row  items-center px-16 xl:px-40 gap-7">
           <section className="basis-3/6 flex flex-col items-center lg:items-start">
             <h2 className="text-center text-white lg:text-left font-bold text-primario text-[20px] sm:text-[32px] lg:text-[42px]">
-              <span className="text-[#7D0101]">Somos líderes</span> Mejorando
+              <span className="text-primary">Somos líderes</span> Mejorando
               tiempos y procesos de cobranza judicial en Mexico.
             </h2>
             <h3 className="text-[#C1C1C1] text-center lg:text-justify text-base md:text-[18px] pt-8 pb-10 w-[100%] leading-9">
@@ -51,32 +51,157 @@ export default function Home() {
           </a>
         </section>
       </header>
-      <Image
+      {/* <Image
         src="/wave.svg"
         width={330}
         height={330}
         alt="Logo Mel Abogados"
         className="w-full mt-[-10px] md:mt-[-45px] lg:mt-[-80px]"
-      />
+      /> */}
 
       {/* Nuestros Socios */}
 
-      <section id="1" className="pt-10 pb-20">
+      <section id="1" className="py-20">
         <h2 className="text-[32px] text-center">Nuestros Socios</h2>
         <p className="text-center text-sm pt-4">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
           convallis.
         </p>
-        <section className="flex justify-center">
-          <article>
-            <section className="flex"></section>
-          </article>
+        <section className="flex justify-center gap-20">
+          <section className="bg-[#333333] text-center w-full max-w-[550px] max-h-[370px] rounded-2xl px-10 pb-12 mt-32">
+            <section className="bg-[#c9c7c7] rounded-full w-[200px] h-[200px] flex flex-col items-center justify-center mx-auto mt-[-100px] hover:cursor-pointer">
+              <Image
+                quality={60}
+                src={"/ErnestoFoto.jpeg"}
+                alt="Kit"
+                width={50}
+                height={50}
+                className={"w-full rounded-full h-full"}
+              />
+            </section>
+            <h3 className="font-medium text-2xl py-6 text-white ">
+              Lic. Mónica Yolanda López Garcías
+            </h3>
+            <p className="leading-9 text-[#8a8a8a] my-5">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse quis imperdiet tortor. Maecenas quis leo consectetur,
+              vehicula augue ut, placerat purus.
+            </p>
+          </section>
+          <section className="bg-[#333333] text-center w-full max-w-[550px] max-h-[370px] rounded-2xl px-10 pb-12 mt-32">
+            <section className="bg-[#c9c7c7] rounded-full w-[200px] h-[200px] flex flex-col items-center justify-center mx-auto mt-[-100px] hover:cursor-pointer">
+              <Image
+                quality={60}
+                src={"/ErnestoFoto.jpeg"}
+                alt="Kit"
+                width={50}
+                height={50}
+                className={"w-full rounded-full h-full"}
+              />
+            </section>
+            <h3 className="font-medium text-2xl py-6 text-white ">
+              Lic. Mónica Yolanda López Garcías
+            </h3>
+            <p className="leading-9 text-[#8a8a8a] my-5">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse quis imperdiet tortor. Maecenas quis leo consectetur,
+              vehicula augue ut, placerat purus.
+            </p>
+          </section>
+        </section>
+        <section className="flex justify-center gap-20">
+          <section className="bg-[#333333] text-center w-full max-w-[550px] rounded-2xl px-10 pb-12 mt-32">
+            <section className="bg-[#c9c7c7] rounded-full w-[200px] h-[200px] flex flex-col items-center justify-center mx-auto mt-[40px] hover:cursor-pointer">
+              <Image
+                quality={60}
+                src={"/ErnestoFoto.jpeg"}
+                alt="Kit"
+                width={50}
+                height={50}
+                className={"w-full rounded-full h-full"}
+              />
+            </section>
+            <h3 className="font-medium text-2xl py-6 text-white ">
+              Lic. Ernesto López García
+            </h3>
+            <p className="leading-9 text-[#8a8a8a] my-5">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse quis imperdiet tortor. Maecenas quis leo consectetur,
+              vehicula augue ut, placerat purus.
+            </p>
+          </section>
+          <section className="bg-[#333333] text-center w-full max-w-[550px] rounded-2xl px-10 pb-12 mt-32">
+            <section className="bg-[#c9c7c7] rounded-full w-[200px] h-[200px] flex flex-col items-center justify-center mx-auto mt-[40px] hover:cursor-pointer">
+              <Image
+                quality={60}
+                src={"/ErnestoFoto.jpeg"}
+                alt="Kit"
+                width={50}
+                height={50}
+                className={"w-full rounded-full h-full"}
+              />
+            </section>
+            <h3 className="font-medium text-2xl py-6 text-white ">
+              Lic. Ernesto López García
+            </h3>
+            <p className="leading-9 text-[#8a8a8a] my-5">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse quis imperdiet tortor. Maecenas quis leo consectetur,
+              vehicula augue ut, placerat purus.
+            </p>
+          </section>
+        </section>
+        <section className="flex justify-center gap-20">
+          <section className="text-center w-full max-w-[550px] rounded-2xl px-10 pb-12 mt-32">
+            <section className="bg-[#c9c7c7] rounded-full w-[200px] h-[200px] flex flex-col items-center justify-center mx-auto mt-[40px] hover:cursor-pointer">
+              <Image
+                quality={60}
+                src={"/ErnestoFoto.jpeg"}
+                alt="Kit"
+                width={50}
+                height={50}
+                className={"w-full rounded-full h-full"}
+              />
+            </section>
+            <h3 className="font-medium text-2xl py-6">
+              Lic. Mónica Yolanda López Garcías
+            </h3>
+            <div className="hidden md:block border border-primary w-1/2 mx-auto h-[1px] mt-6" />
+            <p className="leading-9 text-[#8a8a8a] my-8">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse quis imperdiet tortor. Maecenas quis leo consectetur,
+              vehicula augue ut, placerat purus.
+            </p>
+            <div className="hidden md:block border border-primary w-1/2 mx-auto h-[1px] mt-6" />
+          </section>
+          <section className="text-center w-full max-w-[550px] rounded-2xl px-10 pb-12 mt-32">
+            <section className="bg-[#c9c7c7] rounded-full w-[200px] h-[200px] flex flex-col items-center justify-center mx-auto mt-[40px] hover:cursor-pointer">
+              <Image
+                quality={60}
+                src={"/ErnestoFoto.jpeg"}
+                alt="Kit"
+                width={50}
+                height={50}
+                className={"w-full rounded-full h-full"}
+              />
+            </section>
+            <h3 className="font-medium text-2xl py-6">
+              Lic. Ernesto López García
+            </h3>
+            <div className="hidden md:block border border-primary w-1/2 mx-auto h-[1px] mt-6" />
+            <p className="leading-9 text-[#8a8a8a] my-8">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse quis imperdiet tortor. Maecenas quis leo consectetur,
+              vehicula augue ut, placerat purus.
+            </p>
+            <div className="hidden md:block border border-primary w-1/2 mx-auto h-[1px] mt-6" />
+          </section>
         </section>
       </section>
 
       {/* Nuestros Servicios */}
 
-      <section id="2" className="bg-[#D9D9D9] py-20">
+      <section id="2" className="bg-secondary py-20">
         <h2 className="text-[32px] text-center">Nuestros Servicios</h2>
         <p className="text-center text-sm pt-4">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
@@ -84,56 +209,56 @@ export default function Home() {
         </p>
 
         <div className="flex flex-col gap-5 md:grid md:grid-cols-6 md:grid-rows-5 md:gap-4 pt-10 px-6 lg:px-10 xl:px-40 2xl:px-60">
-          <div className="col-span-2 row-span-2 bg-[#919191] rounded-[20px]">
-            <h2 className="text-center text-[20px] font-semibold pt-6 pb-4">
+          <div className="py-8 col-span-2 row-span-2 bg-third rounded-[20px]">
+            <h2 className="text-center text-[20px] font-semibold pb-4">
               SEGURO Y FINANZAS
             </h2>
-            <ul className="ml-16 leading-9 list-disc">
+            <ul className="flex flex-col items-center leading-10 list-disc">
               <li>Constitución</li>
               <li>Juicios de recuperación</li>
               <li>Especial de finanzas</li>
             </ul>
           </div>
 
-          <div className="px-4 col-span-2 row-span-2 col-start-1 row-start-3 bg-[#919191] rounded-[20px]">
-            <h2 className="text-center text-[20px] font-semibold py-8">
+          <div className="py-8 md:px-2 col-span-2 row-span-2 col-start-1 row-start-3 bg-third rounded-[20px]">
+            <h2 className="text-center text-[20px] font-semibold pb-4">
               CARTERA <br /> HIPOTECARIA
             </h2>
-            <ul className="ml-16 leading-9 list-disc">
+            <ul className="flex flex-col items-center leading-10 list-disc">
               <li>Media Residencial</li>
             </ul>
           </div>
-          <div className="px-4 col-span-2 col-start-1 row-start-5 bg-[#919191] rounded-[20px]">
-            <h2 className="text-center text-[20px] font-semibold py-8">
+          <div className="flex flex-col justify-center py-8 px-4 md:px-2 col-span-2 col-start-1 row-start-5 bg-third rounded-[20px]">
+            <h2 className="text-center text-[20px] font-semibold">
               COBRANZA JUDICIAL
             </h2>
           </div>
-          <div className="px-4 col-span-2 row-span-3 col-start-3 row-start-1 bg-[#919191] rounded-[20px]">
-            <h2 className="text-center text-[20px] font-semibold py-8">
+          <div className="py-8 md:px-2 col-span-2 row-span-3 col-start-3 row-start-1 bg-[#919191] rounded-[20px]">
+            <h2 className="text-center text-[20px] font-semibold pb-4">
               FACTORAJE <br /> FINANCIERO
             </h2>
-            <ul className="ml-16 leading-9 list-disc">
+            <ul className="flex flex-col items-center leading-10 list-disc">
               <li>Con recurso</li>
               <li>Sin recurso</li>
               <li>A provedores</li>
               <li>Con mandato de cobranza</li>
             </ul>
           </div>
-          <div className="px-4 col-span-2 row-span-2 col-start-3 row-start-4 bg-[#919191] rounded-[20px]">
-            <h2 className="text-center text-[20px] font-semibold pt-6 pb-4">
+          <div className="py-8 px-4 md:px-2 col-span-2 row-span-2 col-start-3 row-start-4 bg-[#919191] rounded-[20px]">
+            <h2 className="text-center text-[20px] font-semibold pb-4">
               ARRENDAMIENTO FINANCIERO
             </h2>
-            <ul className="ml-16 leading-9 list-disc">
+            <ul className="flex flex-col items-center leading-10 list-disc">
               <li>Plantas Industriales</li>
               <li>Maquinaria y Equipo</li>
               <li>Inmuebles Puro</li>
             </ul>
           </div>
-          <div className="px-4 col-span-2 row-span-3 col-start-5 row-start-1 bg-[#919191] rounded-[20px]">
-            <h2 className="text-center text-[20px] font-semibold py-8">
+          <div className="py-8 px-4 md:px-2 col-span-2 row-span-3 col-start-5 row-start-1 bg-[#919191] rounded-[20px]">
+            <h2 className="text-center text-[20px] font-semibold pb-4">
               CREDITOS EMPRESARIALES
             </h2>
-            <ul className="ml-16 leading-9 list-disc">
+            <ul className="flex flex-col items-center leading-10 list-disc">
               <li>Moneda nacional</li>
               <li>Dolares Finanfiamiento en Línea</li>
               <li>Agro</li>
@@ -141,11 +266,11 @@ export default function Home() {
               <li>Negocios</li>
             </ul>
           </div>
-          <div className="px-4 col-span-2 row-span-2 col-start-5 row-start-4 bg-[#919191] rounded-[20px]">
-            <h2 className="text-center text-[20px] font-semibold py-8">
+          <div className="py-8 px-4 md:px-2 col-span-2 row-span-2 col-start-5 row-start-4 bg-[#919191] rounded-[20px]">
+            <h2 className="text-center text-[20px] font-semibold pb-4">
               CREDITOS <br /> PYME
             </h2>
-            <ul className="ml-16 leading-9 list-disc">
+            <ul className="flex flex-col items-center leading-10 list-disc">
               <li>Fondeo NAFIN</li>
             </ul>
           </div>
@@ -190,7 +315,7 @@ export default function Home() {
 
       {/* Sobre Nosotros */}
 
-      <section id="3" className="py-20 bg-[#D9D9D9] px-5 sm:px-10 xl:px-20 ">
+      <section id="3" className="py-20 bg-secondary px-5 sm:px-10 xl:px-20 ">
         <article className="bg-white rounded-[20px] flex flex-col lg:flex-row justify-between items-center p-8 sm:p-12 md:p-20 gap-4 border border-black border-b-4 border-r-4 ">
           <h2 className="font-semibold text-[32px] text-center lg:mr-10 basis-2/6">
             Conoce Más <br /> Sobre Nosotros
@@ -273,7 +398,7 @@ export default function Home() {
           convallis.
         </p>
         <section className="flex flex-col items-center md:flex-row justify-center mt-12 gap-5 xl:gap-9 px-5 sm:px-24 md:px-10 md:px-18 2xl:px-80">
-          <article className="bg-[#7d0101] rounded-[20px] p-6 md:p-8 basis-1/2">
+          <article className="bg-primary rounded-[20px] p-6 md:p-8 basis-1/2">
             <h3 className="text-white text-[28px] font-medium">
               Pasante de Derecho
             </h3>
@@ -293,11 +418,11 @@ export default function Home() {
                 </li>
                 <li>Tienes las dispocisión.</li>
               </ul>
-              <p className="font-semibold text-[#7d0101]">
+              <p className="font-semibold text-primary">
                 Si cumples con lo anterior ponte en contacto con nosotros.
               </p>
               <section className="mt-5 flex gap-3">
-                <div className="bg-[#7D0101] rounded-[10px] p-3">
+                <div className="bg-primary rounded-[10px] p-3">
                   <Image
                     src="/phone-call.png"
                     width={20}
@@ -306,7 +431,7 @@ export default function Home() {
                   />
                 </div>
                 <a href={`mailto:${email}`}>
-                  <div className="bg-[#7D0101] rounded-[10px] p-3">
+                  <div className="bg-primary rounded-[10px] p-3">
                     <Image
                       src="/email.png"
                       width={20}
@@ -319,7 +444,7 @@ export default function Home() {
             </section>
           </article>
 
-          <article className="bg-[#D9D9D9] rounded-[20px] p-8 basis-1/2">
+          <article className="bg-secondary rounded-[20px] p-8 basis-1/2">
             <h3 className="text-black text-[28px] font-medium">
               Pasante de Derecho
             </h3>
@@ -339,11 +464,11 @@ export default function Home() {
                 </li>
                 <li>Tienes las dispocisión.</li>
               </ul>
-              <p className="font-semibold text-[#7d0101]">
+              <p className="font-semibold text-primary">
                 Si cumples con lo anterior ponte en contacto con nosotros.
               </p>
               <section className="mt-5 flex gap-3">
-                <div className="bg-[#7D0101] rounded-[10px] p-3">
+                <div className="bg-primary rounded-[10px] p-3">
                   <Image
                     src="/phone-call.png"
                     width={20}
@@ -352,7 +477,7 @@ export default function Home() {
                   />
                 </div>
                 <a href={`mailto:${email}`}>
-                  <div className="bg-[#7D0101] rounded-[10px] p-3">
+                  <div className="bg-primary rounded-[10px] p-3">
                     <Image
                       src="/email.png"
                       width={20}
@@ -369,7 +494,7 @@ export default function Home() {
 
       {/* Contacto */}
 
-      <section id="5" className="py-20 bg-[#D9D9D9] px-5 sm:px-10 xl:px-40">
+      <section id="5" className="py-20 bg-secondary px-5 sm:px-10 xl:px-40">
         <h2 className="text-[32px] text-center">
           Ponte en Contacto con Nosotros
         </h2>
@@ -379,7 +504,7 @@ export default function Home() {
         </p>
 
         <section className="mt-14 bg-white rounded-[20px] border border-black border-b-4 border-r-4 p-6 lg:p-12 flex flex-col md:flex-row justify-between gap-8">
-          <section className="bg-[#D9D9D9] border border-black rounded-[20px] px-6 py-7 basis-2/5  flex flex-col items-center md:items-start">
+          <section className="bg-secondary border border-black rounded-[20px] px-6 py-7 basis-2/5  flex flex-col items-center md:items-start">
             <h3 className="text-md md:text-[24px] font-semibold mb-6">
               Información De Contacto
             </h3>
@@ -449,7 +574,7 @@ export default function Home() {
               className="outline-none border border-black pb-2 rounded-[20px] w-full py-6 px-6 h-[200px] max-h-[220px] my-4"
             />
 
-            <section className="bg-[#D9D9D9] px-8 py-3 w-full sm:w-fit rounded-[10px] border border-black flex gap-4 justify-center sm:justify-end float-right">
+            <section className="bg-secondary px-8 py-3 w-full sm:w-fit rounded-[10px] border border-black flex gap-4 justify-center sm:justify-end float-right">
               <Image
                 src="/send.png"
                 width={25}
@@ -474,10 +599,10 @@ export default function Home() {
         </section>
         <p className="basis-1/3 text-center text-xs">
           © 2024 All rights res red.
-          <span className="text-[#7D0101] font-semibold">MEL Abogados</span>
+          <span className="text-primary font-semibold">MEL Abogados</span>
         </p>
         <section className="flex gap-7 basis-1/3 justify-end">
-          {/* <div className="bg-[#7D0101] rounded-full p-3"> */}
+          {/* <div className="bg-primary rounded-full p-3"> */}
           <a href={`mailto:${email}`}>
             <Image
               src="/emailWine.png"
@@ -487,7 +612,7 @@ export default function Home() {
             />
           </a>
           {/* </div> */}
-          {/* <div className="bg-[#7D0101] rounded-full p-3"> */}
+          {/* <div className="bg-primary rounded-full p-3"> */}
           <Image
             src="/phoneWine.png"
             width={25}
