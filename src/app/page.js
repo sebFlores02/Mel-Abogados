@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import Image from "next/image";
+import LogoCarousel from "../components/LogoCarousel";
 
 export default function Home() {
   var email = "johndoe@fakeemail.com";
@@ -276,6 +277,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <LogoCarousel />
 
       {/* Portafolio */}
 
